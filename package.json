@@ -1,31 +1,27 @@
 {
-  "name": "testzoomwithbootstrap",
-  "version": "1.0.0",
-  "description": "https://rakesh-menonk.github.io/testzoomwithbootstrap/",
-  "main": "index.js",
-  "dependencies": {
-    "bower": "^1.8.2",
-    "grunt": "^1.0.1",
-    "grunt-bower": "^0.21.4"
-  },
-  "devDependencies": {
-    "bower": "^1.8.2",
-    "express": "^4.15.4",
-    "grunt": "^1.0.1",
-    "grunt-cli": "^1.2.0",
-    "webpack": "^3.6.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rakesh-menonk/testzoomwithbootstrap.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rakesh-menonk/testzoomwithbootstrap/issues"
-  },
-  "homepage": "https://github.com/rakesh-menonk/testzoomwithbootstrap#readme"
+    "name": "testzoomwithbootstrap",
+    "version": "1.0.0",
+    "description": "https://rakesh-menonk.github.io/testzoomwithbootstrap/",
+    "dependencies": {},
+    "devDependencies": {
+        "bower": "^1.8.2",
+        "express": "^4.15.4",
+        "grunt": "^1.0.1",
+        "grunt-cli": "^1.2.0",
+        "grunt-bower": "^0.21.4",
+        "webpack": "^3.6.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rakesh-menonk/testzoomwithbootstrap.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rakesh-menonk/testzoomwithbootstrap/issues"
+    },
+    "homepage": "https://github.com/rakesh-menonk/testzoomwithbootstrap#readme"
 }
