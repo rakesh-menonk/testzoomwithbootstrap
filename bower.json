@@ -1,0 +1,17 @@
+{
+  "name": "testzoomwithbootstrap",
+  "description": "https://rakesh-menonk.github.io/testzoomwithbootstrap/",
+  "main": "index.js",
+  "authors": [
+    "Rakesh Menon K <rakesh.menonk@bestbuy.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/rakesh-menonk/testzoomwithbootstrap",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
