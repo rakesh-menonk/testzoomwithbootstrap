@@ -4,42 +4,112 @@
 }
 */
 
-.visible-MinWidth640px {
+
+/*
+*:focus {
+    border: 1px solid red;
+    outline: none;
+}
+
+*:active {
+    border: 1px solid green;
+    outline: none;
+}
+
+*:hover {
+    border: 1px solid blue;
+}
+*/
+
+html,
+body {
+    /* width: 100%; */
+    /* position: absolute; */
+}
+
+
+/*
+.visible-min-width-640px {
     display: none;
 }
 
-.visible-MinDeviceWidth640px {
+.visible-min-device-width-640px {
     display: none;
 }
 
-.visible-MinDeviceWidth640pxWithLandscape {
+.visible-min-device-width-640pxWithLandscape {
     display: none;
 }
 
-.visible-MinWidth640pxWithLandscape {
+.visible-min-width-640pxWithLandscape {
     display: none;
+}
+*/
+
+.default-hidden {
+    display: none;
+}
+
+.main-container {
+    background-color: gray;
 }
 
 @media screen and (min-width: 640px) {
-    .visible-MinWidth640px {
+    .visible-min-width-640px {
         display: block;
     }
 }
 
 @media screen and (min-device-width: 640px) {
-    .visible-MinDeviceWidth640px {
+    .visible-min-device-width-640px {
         display: block;
     }
 }
 
-@media screen and (min-device-width: 640px) and (orientation: landscape) {
-    .visible-MinDeviceWidth640pxWithLandscape {
+@media screen and (min-device-width: 640px) and (orientation: portrait) {
+    .visible-min-device-width-640px-portrait {
         display: block;
     }
 }
 
-@media screen and (min-width: 640px) and (orientation: landscape) {
-    .visible-MinWidth640pxWithLandscape {
+@media screen and (min-width: 640px) and (orientation: portrait) {
+    .visible-min-width-640px-portrait {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .visible-max-width-640px {
+        display: block;
+    }
+}
+
+@media screen and (max-device-width: 640px) {
+    .visible-max-device-width-640px {
+        display: block;
+    }
+}
+
+@media screen and (max-device-width: 640px) and (orientation: portrait) {
+    .visible-max-device-width-640px-portrait {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 640px) and (orientation: portrait) {
+    .visible-max-width-640px-portrait {
+        display: block;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .visible-portrait {
+        display: block;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .visible-Landscape {
         display: block;
     }
 }

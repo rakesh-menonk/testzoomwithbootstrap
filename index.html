@@ -3,9 +3,14 @@
 
 <head>
     <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <!--
+    <meta name="viewport" content="width=1024">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- , minimum-scale=1.0, maximum-scale=1.0, user-scalable=no -->
+      -->
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Test Zoom With Bootstrap</title>
 
@@ -22,15 +27,25 @@
 </head>
 
 <body id="index" class="home">
-    Test Zoom With Bootstrap
+    <div>Test Zoom With Bootstrap</div>
+    <div>Second Div</div>
+    <div class="container-fluid main-container">
+        <div>Sample with Container</div>
+    </div>
     <div class="hidden-sm hidden-md hidden-lg">XS</div>
     <div class="hidden-xs hidden-md hidden-lg">SM</div>
     <div class="hidden-xs hidden-sm hidden-lg">MD</div>
     <div class="hidden-xs hidden-sm hidden-md">LG</div>
-    <div class="visible-MinWidth640px">Minimum Width 640px</div>
-    <div class="visible-MinDeviceWidth640px">Minimum Device Width 640px</div>
-    <div class="visible-MinWidth640pxWithLandscape">Minimum Width 640px With Landscape</div>
-    <div class="visible-MinDeviceWidth640pxWithLandscape">Minimum Device Width 640px With Landscape</div>
+    <div class="default-hidden visible-min-width-640px">Minimum Width 640px</div>
+    <div class="default-hidden visible-min-device-width-640px">Minimum Device Width 640px</div>
+    <div class="default-hidden visible-min-width-640px-portrait">Minimum Width 640px With Portrait</div>
+    <div class="default-hidden visible-min-device-width-640px-portrait">Minimum Device Width 640px With Portrait</div>
+    <div class="default-hidden visible-max-width-640px">Maximum Width 640px</div>
+    <div class="default-hidden visible-max-device-width-640px">Maximum Device Width 640px</div>
+    <div class="default-hidden visible-max-width-640px-portrait">Maximum Width 640px With Portrait</div>
+    <div class="default-hidden visible-max-device-width-640px-portrait">Maximum Device Width 640px With Portrait</div>
+    <div class="default-hidden visible-portrait">Portrait</div>
+    <div class="default-hidden visible-Landscape">Landscape</div>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
