@@ -1,0 +1,45 @@
+/*
+@-ms-viewport {
+    width: device-width;
+}
+*/
+
+.visible-MinWidth640px {
+    display: none;
+}
+
+.visible-MinDeviceWidth640px {
+    display: none;
+}
+
+.visible-MinDeviceWidth640pxWithLandscape {
+    display: none;
+}
+
+.visible-MinWidth640pxWithLandscape {
+    display: none;
+}
+
+@media screen and (min-width: 640px) {
+    .visible-MinWidth640px {
+        display: block;
+    }
+}
+
+@media screen and (min-device-width: 640px) {
+    .visible-MinDeviceWidth640px {
+        display: block;
+    }
+}
+
+@media screen and (min-device-width: 640px) and (orientation: landscape) {
+    .visible-MinDeviceWidth640pxWithLandscape {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 640px) and (orientation: landscape) {
+    .visible-MinWidth640pxWithLandscape {
+        display: block;
+    }
+}

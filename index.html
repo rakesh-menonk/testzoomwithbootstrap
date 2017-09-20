@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- , minimum-scale=1.0, maximum-scale=1.0, user-scalable=no -->
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Test Zoom With Bootstrap</title>
 
@@ -21,17 +22,23 @@
 </head>
 
 <body id="index" class="home">
-    Hello World!
+    Test Zoom With Bootstrap
     <div class="hidden-sm hidden-md hidden-lg">XS</div>
     <div class="hidden-xs hidden-md hidden-lg">SM</div>
     <div class="hidden-xs hidden-sm hidden-lg">MD</div>
     <div class="hidden-xs hidden-sm hidden-md">LG</div>
+    <div class="visible-MinWidth640px">Minimum Width 640px</div>
+    <div class="visible-MinDeviceWidth640px">Minimum Device Width 640px</div>
+    <div class="visible-MinWidth640pxWithLandscape">Minimum Width 640px With Landscape</div>
+    <div class="visible-MinDeviceWidth640pxWithLandscape">Minimum Device Width 640px With Landscape</div>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="./bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
