@@ -27,6 +27,11 @@ body {
     /* position: absolute; */
 }
 
+.base-font {
+    font-family: 'Tahoma';
+    font-size: 10px;
+}
+
 
 /****************************************************************/
 
@@ -173,6 +178,60 @@ body {
         display: block;
     }
 }
+
+
+/****************************************************************/
+
+@media screen and (min-width: 64em) {
+    .visible-min-width-64em {
+        display: block;
+    }
+}
+
+@media screen and (min-device-width: 64em) {
+    .visible-min-device-width-64em {
+        display: block;
+    }
+}
+
+@media screen and (min-device-width: 64em) and (orientation: portrait) {
+    .visible-min-device-width-64em-portrait {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 64em) and (orientation: portrait) {
+    .visible-min-width-64em-portrait {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 64em) {
+    .visible-max-width-64em {
+        display: block;
+    }
+}
+
+@media screen and (max-device-width: 64em) {
+    .visible-max-device-width-64em {
+        display: block;
+    }
+}
+
+@media screen and (max-device-width: 64em) and (orientation: portrait) {
+    .visible-max-device-width-64em-portrait {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 64em) and (orientation: portrait) {
+    .visible-max-width-64em-portrait {
+        display: block;
+    }
+}
+
+
+/****************************************************************/
 
 
 /****************************************************************/
